@@ -1,0 +1,55 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "material": {
+          "storeFile": "E:/Work/p12/.p12",
+          "storePassword": "0000001915C321D70FCA50300FB5B5205E1301249A712D0A8098BD9EA9A860E9E4C1788E0CADF3F970",
+          "keyAlias": "Test1",
+          "keyPassword": "00000019E19993637B267B0B3D50156C94039625A6455688740254A6A605DBD87FCB21D546C7146200",
+          "signAlg": "SHA256withECDSA",
+          "profile": "D:/浏览器/Test1Release.p7b",
+          "certpath": "D:/浏览器/Test1.cer"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "targetSdkVersion": "5.0.5(17)",
+        "compatibleSdkVersion": "5.0.5(17)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
