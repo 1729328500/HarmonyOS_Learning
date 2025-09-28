@@ -1,0 +1,55 @@
+{
+  "HVIGOR_OHOS_PLUGIN": {
+    "MODULES": [
+      {
+        "MODULE_NAME": "1043bfc77febe75fafec0c4309faccf1",
+        "API_TYPE": "stageMode",
+        "INCREMENTAL_TASKS": {
+          "COMPILE_ARKTS": false
+        }
+      }
+    ],
+    "BUILD_MODE": "debug",
+    "USE_NORMALIZED_OHMURL": true
+  },
+  "HVIGOR": {
+    "IS_INCREMENTAL": true,
+    "IS_DAEMON": true,
+    "IS_PARALLEL": true,
+    "IS_HVIGORFILE_TYPE_CHECK": false,
+    "TASK_TIME": {
+      "1043bfc77febe75fafec0c4309faccf1": {
+        "PreBuild": 119920900,
+        "CreateModuleInfo": 2120400,
+        "GenerateMetadata": 3908800,
+        "ConfigureCmake": 283300,
+        "MergeProfile": 4388800,
+        "CreateBuildProfile": 3035100,
+        "PreCheckSyscap": 421200,
+        "GeneratePkgContextInfo": 1236500,
+        "ProcessIntegratedHsp": 1716100,
+        "BuildNativeWithCmake": 495800,
+        "MakePackInfo": 6168900,
+        "SyscapTransform": 1791200,
+        "ProcessProfile": 170097000,
+        "ProcessRouterMap": 7133000,
+        "BuildNativeWithNinja": 2549700,
+        "ProcessResource": 8493900,
+        "GenerateLoaderJson": 20579500,
+        "CompileResource": 215214100,
+        "BuildJS": 5483700,
+        "ProcessLibs": 1103486500,
+        "DoNativeStrip": 15797900,
+        "CacheNativeLibs": 1170107800,
+        "CompileArkTS": 6152057500,
+        "GeneratePkgModuleJson": 2289600,
+        "PackageHap": 399273800,
+        "SignHap": 1877600,
+        "CollectDebugSymbol": 4070500,
+        "assembleHap": 205100
+      }
+    },
+    "BUILD_ID": "202509281906490330",
+    "TOTAL_TIME": 9517535500
+  }
+}

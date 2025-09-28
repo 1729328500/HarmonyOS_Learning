@@ -11,6 +11,11 @@
     {
       "name": "EntryAbility_label",
       "value": "label"
+    },
+    {
+      "name": "network_reason",
+      "value":"需要网络权限加载头像图片"
     }
+
   ]
 }

@@ -1,0 +1,882 @@
+[2025-09-28T14:47:59.500] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2025-09-28T14:48:00.189] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: false,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2025-09-28T14:48:00.213] [DEBUG] debug-file - hvigorfile, resolving E:\HarmonyOS_Learning\MultipleDialog-master\hvigorfile.ts
+[2025-09-28T14:48:02.670] [DEBUG] debug-file - hvigorfile, require result:  { default: { system: [Function: appTasks], plugins: [] } }
+[2025-09-28T14:48:02.847] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2025-09-28T14:48:02.867] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
+[2025-09-28T14:48:02.854] [DEBUG] debug-file - Obtain build option for product 'default'in this build.
+[2025-09-28T14:48:02.863] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native,previewer
+[2025-09-28T14:48:02.879] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2025-09-28T14:48:02.912] [DEBUG] debug-file - Sdk init in 55 ms 
+[2025-09-28T14:48:02.954] [DEBUG] debug-file - Project task initialization takes 41 ms 
+[2025-09-28T14:48:02.967] [DEBUG] debug-file - hvigorfile, resolving E:\HarmonyOS_Learning\MultipleDialog-master\entry\hvigorfile.ts
+[2025-09-28T14:48:02.987] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2025-09-28T14:48:02.995] [DEBUG] debug-file - Module entry task initialization takes 4 ms 
+[2025-09-28T14:48:02.999] [DEBUG] debug-file - project has submodules:entry
+[2025-09-28T14:48:03.020] [DEBUG] debug-file - Configuration task cost before running: 2 s 852 ms 
+[2025-09-28T14:48:03.030] [DEBUG] debug-file - entry : clean cost memory 0.23917388916015625
+[2025-09-28T14:48:03.024] [DEBUG] debug-file - Executing task :entry:clean
+[2025-09-28T14:48:03.062] [DEBUG] debug-file - Obtain build option for module 'entry' target 'default'in this build.
+[2025-09-28T14:47:59.502] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  modelVersion: '5.0.0',
+  dependencies: {},
+  execution: {},
+  logging: {},
+  debugging: {},
+  nodeOptions: {}
+}
+[2025-09-28T14:48:00.191] [DEBUG] debug-file - Since current hvigor version 5.17.6 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2025-09-28T14:48:03.080] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2025-09-28T14:48:02.670] [DEBUG] debug-file - hvigorfile, binding system plugins [Function: appTasks]
+[2025-09-28T14:48:02.847] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2025-09-28T14:48:02.856] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2025-09-28T14:48:02.955] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2025-09-28T14:48:02.973] [DEBUG] debug-file - hvigorfile, require result:  { default: { system: [Function: hapTasks], plugins: [] } }
+[2025-09-28T14:48:02.988] [DEBUG] debug-file - Target 'default' config initialized
+[2025-09-28T14:48:02.995] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2025-09-28T14:48:03.000] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2025-09-28T14:48:03.031] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 863 ms 
+[2025-09-28T14:48:03.025] [DEBUG] debug-file - clean: Worker pool is inactive.
+[2025-09-28T14:48:03.076] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2025-09-28T14:47:59.504] [DEBUG] debug-file - env: daemon=false
+[2025-09-28T14:48:00.191] [DEBUG] debug-file - Cache service initialization finished in 2 ms 
+[2025-09-28T14:48:03.082] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2025-09-28T14:48:02.848] [DEBUG] debug-file - Product 'default' build option initialized
+[2025-09-28T14:48:02.955] [DEBUG] debug-file - hvigorfile, no custom plugins were found in E:\HarmonyOS_Learning\MultipleDialog-master\hvigorfile.ts
+[2025-09-28T14:48:02.988] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2025-09-28T14:48:02.973] [DEBUG] debug-file - hvigorfile, binding system plugins [Function: hapTasks]
+[2025-09-28T14:48:02.995] [DEBUG] debug-file - hvigorfile, no custom plugins were found in E:\HarmonyOS_Learning\MultipleDialog-master\entry\hvigorfile.ts
+[2025-09-28T14:48:03.006] [DEBUG] debug-file - load to the disk finished
+[2025-09-28T14:48:03.032] [INFO] debug-file - Finished :entry:clean... after 7 ms 
+[2025-09-28T14:48:03.076] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2025-09-28T14:47:59.504] [DEBUG] debug-file - no-daemon, use the parent process.execArgv --max-old-space-size=8192,--expose-gc
+[2025-09-28T14:48:03.083] [DEBUG] debug-file - Current worker pool is stopped or closed.
+[2025-09-28T14:48:02.848] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2025-09-28T14:48:02.955] [DEBUG] debug-file - hvigorfile, resolve finished E:\HarmonyOS_Learning\MultipleDialog-master\hvigorfile.ts
+[2025-09-28T14:48:02.988] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-09-28T14:48:02.995] [DEBUG] debug-file - hvigorfile, resolve finished E:\HarmonyOS_Learning\MultipleDialog-master\entry\hvigorfile.ts
+[2025-09-28T14:48:03.007] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-09-28T14:48:03.032] [DEBUG] debug-file - Executing task ::clean
+[2025-09-28T14:48:03.084] [DEBUG] debug-file - Clear worker 0.
+[2025-09-28T14:48:02.988] [DEBUG] debug-file - Obtain build option for module 'entry' target 'default'in this build.
+[2025-09-28T14:48:03.009] [DEBUG] debug-file - Module MultipleDialog-master Collected Dependency: 
+[2025-09-28T14:48:03.032] [DEBUG] debug-file - clean: Worker pool is inactive.
+[2025-09-28T14:48:03.084] [DEBUG] debug-file - Worker 0 has been cleared.
+[2025-09-28T14:48:03.009] [DEBUG] debug-file - Module MultipleDialog-master's total dependency: 0
+[2025-09-28T14:48:03.033] [DEBUG] debug-file - MultipleDialog-master : clean cost memory 0.03038787841796875
+[2025-09-28T14:48:03.084] [DEBUG] debug-file - Current idle worker size: 1.
+[2025-09-28T14:48:03.010] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-09-28T14:48:03.033] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 865 ms 
+[2025-09-28T14:48:03.084] [DEBUG] debug-file - Current busy worker size: 0.
+[2025-09-28T14:48:03.084] [DEBUG] debug-file - Clear worker 1.
+[2025-09-28T14:48:03.012] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2025-09-28T14:48:03.033] [INFO] debug-file - Finished ::clean... after 1 ms 
+[2025-09-28T14:48:03.084] [DEBUG] debug-file - Worker 1 has been cleared.
+[2025-09-28T14:48:03.012] [DEBUG] debug-file - Module entry's total dependency: 0
+[2025-09-28T14:48:03.033] [DEBUG] debug-file - Executing task :entry:init
+[2025-09-28T14:48:03.084] [DEBUG] debug-file - Current idle worker size: 0.
+[2025-09-28T14:48:03.017] [DEBUG] debug-file - Configuration phase cost:2 s 816 ms 
+[2025-09-28T14:48:03.033] [DEBUG] debug-file - entry : init cost memory 0.01021575927734375
+[2025-09-28T14:48:03.084] [DEBUG] debug-file - Current busy worker size: 0.
+[2025-09-28T14:48:03.033] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 866 ms 
+[2025-09-28T14:48:03.085] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-09-28T14:48:03.034] [INFO] debug-file - Finished :entry:init... after 1 ms 
+[2025-09-28T14:48:03.088] [DEBUG] debug-file - worker[0] exits with exit code 0.
+[2025-09-28T14:48:03.034] [DEBUG] debug-file - Executing task ::init
+[2025-09-28T14:48:03.089] [DEBUG] debug-file - worker[1] exits with exit code 0.
+[2025-09-28T14:48:03.034] [DEBUG] debug-file - MultipleDialog-master : init cost memory 0.00899505615234375
+[2025-09-28T14:48:03.090] [DEBUG] debug-file - Current worker pool is terminated.
+[2025-09-28T14:48:03.034] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 866 ms 
+[2025-09-28T14:48:03.034] [INFO] debug-file - Finished ::init... after 1 ms 
+[2025-09-28T19:06:46.982] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2025-09-28T19:06:47.099] [DEBUG] debug-file - env: daemon=true
+[2025-09-28T19:06:46.984] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  modelVersion: '5.0.0',
+  dependencies: {},
+  execution: {},
+  logging: {},
+  debugging: {},
+  nodeOptions: {}
+}
+[2025-09-28T19:06:48.098] [DEBUG] debug-file - java daemon tryConnect success
+[2025-09-28T19:06:48.122] [DEBUG] debug-file - session manager: set active socket. socketId=NTXNrVaEToWY_uqJAAAB
+[2025-09-28T19:06:49.030] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-09-28T19:06:49.049] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2025-09-28T19:06:49.051] [DEBUG] debug-file - Cache service initialization finished in 2 ms 
+[2025-09-28T19:06:49.063] [DEBUG] debug-file - hvigorfile, resolving E:\HarmonyOS_Learning\MultipleDialog-master\hvigorfile.ts
+[2025-09-28T19:06:51.008] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2025-09-28T19:06:51.009] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2025-09-28T19:06:51.162] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2025-09-28T19:06:51.162] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2025-09-28T19:06:51.163] [DEBUG] debug-file - Product 'default' build option initialized
+[2025-09-28T19:06:51.163] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2025-09-28T19:06:51.166] [DEBUG] debug-file - Obtain build option for product 'default'in this build.
+[2025-09-28T19:06:51.169] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2025-09-28T19:06:51.173] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native,previewer
+[2025-09-28T19:06:51.177] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
+[2025-09-28T19:06:51.183] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2025-09-28T19:06:51.210] [DEBUG] debug-file - Sdk init in 41 ms 
+[2025-09-28T19:06:51.229] [DEBUG] debug-file - Project task initialization takes 17 ms 
+[2025-09-28T19:06:51.230] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2025-09-28T19:06:51.230] [DEBUG] debug-file - hvigorfile, no custom plugins were found in E:\HarmonyOS_Learning\MultipleDialog-master\hvigorfile.ts
+[2025-09-28T19:06:51.230] [DEBUG] debug-file - hvigorfile, resolve finished E:\HarmonyOS_Learning\MultipleDialog-master\hvigorfile.ts
+[2025-09-28T19:06:51.235] [DEBUG] debug-file - hvigorfile, resolving E:\HarmonyOS_Learning\MultipleDialog-master\entry\hvigorfile.ts
+[2025-09-28T19:06:51.240] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2025-09-28T19:06:51.240] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2025-09-28T19:06:51.251] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2025-09-28T19:06:51.251] [DEBUG] debug-file - Target 'default' config initialized
+[2025-09-28T19:06:51.252] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2025-09-28T19:06:51.252] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-09-28T19:06:51.252] [DEBUG] debug-file - Obtain build option for module 'entry' target 'default'in this build.
+[2025-09-28T19:06:51.258] [DEBUG] debug-file - Module entry task initialization takes 3 ms 
+[2025-09-28T19:06:51.258] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2025-09-28T19:06:51.258] [DEBUG] debug-file - hvigorfile, no custom plugins were found in E:\HarmonyOS_Learning\MultipleDialog-master\entry\hvigorfile.ts
+[2025-09-28T19:06:51.258] [DEBUG] debug-file - hvigorfile, resolve finished E:\HarmonyOS_Learning\MultipleDialog-master\entry\hvigorfile.ts
+[2025-09-28T19:06:51.270] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 12 ms 
+[2025-09-28T19:06:51.271] [DEBUG] debug-file - project has submodules:entry
+[2025-09-28T19:06:51.273] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2025-09-28T19:06:51.279] [DEBUG] debug-file - load to the disk finished
+[2025-09-28T19:06:51.280] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-09-28T19:06:51.282] [DEBUG] debug-file - Module MultipleDialog-master Collected Dependency: 
+[2025-09-28T19:06:51.282] [DEBUG] debug-file - Module MultipleDialog-master's total dependency: 0
+[2025-09-28T19:06:51.283] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-09-28T19:06:51.285] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2025-09-28T19:06:51.286] [DEBUG] debug-file - Module entry's total dependency: 0
+[2025-09-28T19:06:51.290] [DEBUG] debug-file - Configuration phase cost:2 s 235 ms 
+[2025-09-28T19:06:51.293] [DEBUG] debug-file - Configuration task cost before running: 2 s 259 ms 
+[2025-09-28T19:06:51.295] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-09-28T19:06:51.295] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-09-28T19:06:51.300] [DEBUG] debug-file - Executing task :entry:default@PreBuild
+[2025-09-28T19:06:51.305] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-09-28T19:06:51.305] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-09-28T19:06:51.416] [DEBUG] debug-file - current product is not Atomic service.
+[2025-09-28T19:06:51.417] [DEBUG] debug-file - Use tool [win32: JAVA_HOME, CLASSPATH]
+ [ { JAVA_HOME: 'E:\\DevEco Studio\\jbr' }, { CLASSPATH: undefined } ]
+[2025-09-28T19:06:51.417] [DEBUG] debug-file - Use tool [win32: NODE_HOME]
+ [ { NODE_HOME: 'E:\\DevEco Studio\\tools\\node' } ]
+[2025-09-28T19:06:51.417] [DEBUG] debug-file - entry : default@PreBuild cost memory -3.3502197265625
+[2025-09-28T19:06:51.418] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 384 ms 
+[2025-09-28T19:06:51.420] [INFO] debug-file - Finished :entry:default@PreBuild... after 118 ms 
+[2025-09-28T19:06:51.422] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-09-28T19:06:51.422] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-09-28T19:06:51.422] [DEBUG] debug-file - Executing task :entry:default@CreateModuleInfo
+[2025-09-28T19:06:51.423] [DEBUG] debug-file - Task 'entry:default@CreateModuleInfo' cost while wrapping incremental declarations: 1 ms 
+[2025-09-28T19:06:51.424] [DEBUG] debug-file - entry : default@CreateModuleInfo cost memory 0.06208038330078125
+[2025-09-28T19:06:51.424] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 390 ms 
+[2025-09-28T19:06:51.424] [INFO] debug-file - Finished :entry:default@CreateModuleInfo... after 2 ms 
+[2025-09-28T19:06:51.426] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-09-28T19:06:51.426] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-09-28T19:06:51.427] [DEBUG] debug-file - Executing task :entry:default@GenerateMetadata
+[2025-09-28T19:06:51.428] [DEBUG] debug-file - Task 'entry:default@GenerateMetadata' cost while wrapping incremental declarations: 1 ms 
+[2025-09-28T19:06:51.428] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-09-28T19:06:51.428] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-09-28T19:06:51.431] [DEBUG] debug-file - entry : default@GenerateMetadata cost memory 0.1112060546875
+[2025-09-28T19:06:51.431] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 397 ms 
+[2025-09-28T19:06:51.431] [INFO] debug-file - Finished :entry:default@GenerateMetadata... after 4 ms 
+[2025-09-28T19:06:51.433] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-09-28T19:06:51.433] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-09-28T19:06:51.433] [DEBUG] debug-file - Executing task :entry:default@ConfigureCmake
+[2025-09-28T19:06:51.433] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-09-28T19:06:51.433] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-09-28T19:06:51.433] [DEBUG] debug-file - entry : default@ConfigureCmake cost memory 0.03719329833984375
+[2025-09-28T19:06:51.433] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 400 ms 
+[2025-09-28T19:06:51.433] [INFO] debug-file - Finished :entry:default@ConfigureCmake... after 1 ms 
+[2025-09-28T19:06:51.435] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-09-28T19:06:51.435] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-09-28T19:06:51.436] [DEBUG] debug-file - Executing task :entry:default@MergeProfile
+[2025-09-28T19:06:51.437] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-09-28T19:06:51.437] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-09-28T19:06:51.437] [DEBUG] debug-file - Change app api release type with 'Release'
+[2025-09-28T19:06:51.437] [DEBUG] debug-file - Change app compile API version with '5.0.5.165'
+[2025-09-28T19:06:51.437] [DEBUG] debug-file - Change app target API version with '50005017'
+[2025-09-28T19:06:51.437] [DEBUG] debug-file - Change app minimum API version with '50005017'
+[2025-09-28T19:06:51.438] [DEBUG] debug-file - Use cli appEnvironment
+[2025-09-28T19:06:51.440] [DEBUG] debug-file - entry : default@MergeProfile cost memory 0.190521240234375
+[2025-09-28T19:06:51.440] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 407 ms 
+[2025-09-28T19:06:51.441] [INFO] debug-file - Finished :entry:default@MergeProfile... after 5 ms 
+[2025-09-28T19:06:51.442] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-09-28T19:06:51.442] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-09-28T19:06:51.443] [DEBUG] debug-file - Executing task :entry:default@CreateBuildProfile
+[2025-09-28T19:06:51.444] [DEBUG] debug-file - Task 'entry:default@CreateBuildProfile' cost while wrapping incremental declarations: 1 ms 
+[2025-09-28T19:06:51.444] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-09-28T19:06:51.444] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-09-28T19:06:51.446] [DEBUG] debug-file - entry : default@CreateBuildProfile cost memory 0.112945556640625
+[2025-09-28T19:06:51.446] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 412 ms 
+[2025-09-28T19:06:51.446] [INFO] debug-file - Finished :entry:default@CreateBuildProfile... after 3 ms 
+[2025-09-28T19:06:51.448] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-09-28T19:06:51.448] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-09-28T19:06:51.449] [DEBUG] debug-file - Executing task :entry:default@PreCheckSyscap
+[2025-09-28T19:06:51.449] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-09-28T19:06:51.449] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-09-28T19:06:51.449] [DEBUG] debug-file - entry : default@PreCheckSyscap cost memory 0.0374298095703125
+[2025-09-28T19:06:51.449] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 415 ms 
+[2025-09-28T19:06:51.449] [INFO] debug-file - Finished :entry:default@PreCheckSyscap... after 1 ms 
+[2025-09-28T19:06:51.451] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-09-28T19:06:51.451] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-09-28T19:06:51.460] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgContextInfo
+[2025-09-28T19:06:51.460] [DEBUG] debug-file - Task 'entry:default@GeneratePkgContextInfo' cost while wrapping incremental declarations: 1 ms 
+[2025-09-28T19:06:51.461] [DEBUG] debug-file - entry : default@GeneratePkgContextInfo cost memory 0.039703369140625
+[2025-09-28T19:06:51.461] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 427 ms 
+[2025-09-28T19:06:51.461] [INFO] debug-file - Finished :entry:default@GeneratePkgContextInfo... after 2 ms 
+[2025-09-28T19:06:51.464] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-09-28T19:06:51.464] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-09-28T19:06:51.466] [DEBUG] debug-file - Executing task :entry:default@ProcessIntegratedHsp
+[2025-09-28T19:06:51.467] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-09-28T19:06:51.467] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-09-28T19:06:51.467] [DEBUG] debug-file - entry : default@ProcessIntegratedHsp cost memory 0.0728302001953125
+[2025-09-28T19:06:51.467] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 433 ms 
+[2025-09-28T19:06:51.468] [INFO] debug-file - Finished :entry:default@ProcessIntegratedHsp... after 2 ms 
+[2025-09-28T19:06:51.470] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-09-28T19:06:51.470] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-09-28T19:06:51.471] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithCmake
+[2025-09-28T19:06:51.471] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-09-28T19:06:51.471] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-09-28T19:06:51.471] [DEBUG] debug-file - entry : default@BuildNativeWithCmake cost memory 0.03863525390625
+[2025-09-28T19:06:51.471] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 438 ms 
+[2025-09-28T19:06:51.472] [INFO] debug-file - Finished :entry:default@BuildNativeWithCmake... after 1 ms 
+[2025-09-28T19:06:51.473] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-09-28T19:06:51.474] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-09-28T19:06:51.474] [DEBUG] debug-file - Executing task :entry:default@MakePackInfo
+[2025-09-28T19:06:51.476] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-09-28T19:06:51.476] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-09-28T19:06:51.478] [DEBUG] debug-file - Module Pack Info:  {
+  summary: {
+    app: { bundleName: 'c***g', bundleType: 'app', version: [Object] },
+    modules: [ [Object] ]
+  },
+  packages: [
+    {
+      deviceType: [Array],
+      moduleType: 'entry',
+      deliveryWithInstall: true,
+      name: 'entry-default'
+    }
+  ]
+}
+[2025-09-28T19:06:51.480] [DEBUG] debug-file - entry : default@MakePackInfo cost memory 0.160797119140625
+[2025-09-28T19:06:51.480] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 446 ms 
+[2025-09-28T19:06:51.480] [INFO] debug-file - Finished :entry:default@MakePackInfo... after 6 ms 
+[2025-09-28T19:06:51.482] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-09-28T19:06:51.482] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-09-28T19:06:51.484] [DEBUG] debug-file - Executing task :entry:default@SyscapTransform
+[2025-09-28T19:06:51.484] [DEBUG] debug-file - File: 'E:\HarmonyOS_Learning\MultipleDialog-master\entry\src\main\syscap.json' from 'sysCapJsonPath' is not exists, just ignore.
+[2025-09-28T19:06:51.485] [DEBUG] debug-file - Task 'entry:default@SyscapTransform' cost while wrapping incremental declarations: 1 ms 
+[2025-09-28T19:06:51.485] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-09-28T19:06:51.485] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-09-28T19:06:51.485] [DEBUG] debug-file - entry : default@SyscapTransform cost memory 0.07703399658203125
+[2025-09-28T19:06:51.485] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 452 ms 
+[2025-09-28T19:06:51.486] [INFO] debug-file - Finished :entry:default@SyscapTransform... after 2 ms 
+[2025-09-28T19:06:51.487] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-09-28T19:06:51.487] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-09-28T19:06:51.489] [DEBUG] debug-file - Executing task :entry:default@ProcessProfile
+[2025-09-28T19:06:51.490] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-09-28T19:06:51.490] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-09-28T19:06:51.491] [DEBUG] debug-file - [
+  'E:\\DevEco Studio\\tools\\node\\node.exe',
+  'E:\\DevEco Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\bin\\ark\\ts2abc.js',
+  '--target-api-version',
+  '17'
+]
+[2025-09-28T19:06:51.654] [DEBUG] debug-file - 12.0.6.0
+[2025-09-28T19:06:51.659] [DEBUG] debug-file - entry : default@ProcessProfile cost memory 2.0808792114257812
+[2025-09-28T19:06:51.659] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 625 ms 
+[2025-09-28T19:06:51.659] [INFO] debug-file - Finished :entry:default@ProcessProfile... after 170 ms 
+[2025-09-28T19:06:51.661] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-09-28T19:06:51.661] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-09-28T19:06:51.663] [DEBUG] debug-file - Executing task :entry:default@ProcessRouterMap
+[2025-09-28T19:06:51.666] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-09-28T19:06:51.666] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-09-28T19:06:51.669] [DEBUG] debug-file - entry : default@ProcessRouterMap cost memory 0.1620941162109375
+[2025-09-28T19:06:51.669] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 635 ms 
+[2025-09-28T19:06:51.670] [INFO] debug-file - Finished :entry:default@ProcessRouterMap... after 7 ms 
+[2025-09-28T19:06:51.672] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-09-28T19:06:51.672] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-09-28T19:06:51.673] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithNinja
+[2025-09-28T19:06:51.673] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-09-28T19:06:51.673] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-09-28T19:06:51.674] [DEBUG] debug-file - entry : default@BuildNativeWithNinja cost memory 0.06299591064453125
+[2025-09-28T19:06:51.675] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 641 ms 
+[2025-09-28T19:06:51.675] [INFO] debug-file - Finished :entry:default@BuildNativeWithNinja... after 2 ms 
+[2025-09-28T19:06:51.677] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-09-28T19:06:51.677] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-09-28T19:06:51.678] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@ProcessResource
+[2025-09-28T19:06:51.681] [DEBUG] debug-file - Executing task :entry:default@ProcessResource
+[2025-09-28T19:06:51.683] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-09-28T19:06:51.683] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-09-28T19:06:51.685] [DEBUG] debug-file - entry : default@ProcessResource cost memory 0.18196868896484375
+[2025-09-28T19:06:51.686] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 652 ms 
+[2025-09-28T19:06:51.688] [INFO] debug-file - Finished :entry:default@ProcessResource... after 6 ms 
+[2025-09-28T19:06:51.690] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-09-28T19:06:51.690] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-09-28T19:06:51.693] [DEBUG] debug-file - Executing task :entry:default@GenerateLoaderJson
+[2025-09-28T19:06:51.709] [DEBUG] debug-file - entry : default@GenerateLoaderJson cost memory 0.783416748046875
+[2025-09-28T19:06:51.709] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 675 ms 
+[2025-09-28T19:06:51.714] [INFO] debug-file - Finished :entry:default@GenerateLoaderJson... after 17 ms 
+[2025-09-28T19:06:51.715] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-09-28T19:06:51.715] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-09-28T19:06:51.716] [DEBUG] debug-file - Executing task :entry:default@ProcessLibs
+[2025-09-28T19:06:51.718] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-09-28T19:06:51.718] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-09-28T19:06:51.722] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2025-09-28T19:06:51.722] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2025-09-28T19:06:51.723] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2025-09-28T19:06:51.725] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2025-09-28T19:06:51.727] [DEBUG] debug-file - default@ProcessLibs work[0] is submitted.
+[2025-09-28T19:06:51.728] [DEBUG] debug-file - default@ProcessLibs work[0] is pushed to ready queue.
+[2025-09-28T19:06:51.728] [DEBUG] debug-file - A work dispatched to worker[19] failed because unable to get work from ready queue.
+[2025-09-28T19:06:51.728] [DEBUG] debug-file - Create  resident worker with id: 18.
+[2025-09-28T19:06:51.729] [DEBUG] debug-file - default@ProcessLibs work[0] has been dispatched to worker[18].
+[2025-09-28T19:06:51.729] [DEBUG] debug-file - default@ProcessLibs work[0] is dispatched.
+[2025-09-28T19:06:51.729] [DEBUG] debug-file - entry : default@ProcessLibs cost memory 1.3309402465820312
+[2025-09-28T19:06:51.732] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-09-28T19:06:51.732] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-09-28T19:06:51.733] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@CompileResource
+[2025-09-28T19:06:51.735] [DEBUG] debug-file - Executing task :entry:default@CompileResource
+[2025-09-28T19:06:51.743] [DEBUG] debug-file - Use tool [E:\DevEco Studio\sdk\default\openharmony\toolchains\restool.exe]
+ [
+  'E:\\DevEco Studio\\sdk\\default\\openharmony\\toolchains\\restool.exe',
+  '-l',
+  'E:\\HarmonyOS_Learning\\MultipleDialog-master\\entry\\build\\default\\intermediates\\res\\default\\resConfig.json'
+]
+[2025-09-28T19:06:51.746] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 223666176,
+  heapTotal: 156704768,
+  heapUsed: 123473368,
+  external: 3245583,
+  arrayBuffers: 198972
+} os memoryUsage :15.007728576660156
+[2025-09-28T19:06:51.843] [DEBUG] debug-file - Info: thread pool is started
+
+[2025-09-28T19:06:51.845] [DEBUG] debug-file - Info: GenericCompiler::CompileFiles
+
+[2025-09-28T19:06:51.845] [DEBUG] debug-file - Info: thread pool is started
+
+[2025-09-28T19:06:51.850] [DEBUG] debug-file - Info: thread pool is stopped
+
+[2025-09-28T19:06:51.856] [DEBUG] debug-file - Info: GenericCompiler::CompileFiles
+
+[2025-09-28T19:06:51.856] [DEBUG] debug-file - Info: thread pool is started
+
+[2025-09-28T19:06:51.866] [DEBUG] debug-file - Info: thread pool is stopped
+
+[2025-09-28T19:06:51.867] [DEBUG] debug-file - Info: GenericCompiler::CompileFiles
+
+[2025-09-28T19:06:51.867] [DEBUG] debug-file - Info: thread pool is started
+
+[2025-09-28T19:06:51.869] [DEBUG] debug-file - Info: thread pool is stopped
+
+[2025-09-28T19:06:51.875] [DEBUG] debug-file - 09-28 19:06:51.875 101392 39624 E C01400/ImageTranscoderUtils: DecodeToRGBA IN
+09-28 19:06:51.875 101392 39624 E C01400/ImageTranscoderUtils: ImageFilter IN E:\HarmonyOS_Learning\MultipleDialog-master\AppScope\resources\base\media\app_icon.png
+
+[2025-09-28T19:06:51.875] [DEBUG] debug-file - 09-28 19:06:51.876 101392 39624 E C01400/ImageTranscoder: TranscodeSLR Only zoom-out is supported.
+
+[2025-09-28T19:06:51.876] [DEBUG] debug-file - Warning: ScaleImage failed, error message: INVALID_PARAMETERS, file path = E:\HarmonyOS_Learning\MultipleDialog-master\AppScope\resources\base\media\app_icon.png
+
+[2025-09-28T19:06:51.878] [DEBUG] debug-file - 09-28 19:06:51.878 101392 39624 E C01400/ImageTranscoderUtils: DecodeToRGBA IN
+
+[2025-09-28T19:06:51.878] [DEBUG] debug-file - 09-28 19:06:51.878 101392 39624 E C01400/ImageTranscoderUtils: ImageFilter IN E:\HarmonyOS_Learning\MultipleDialog-master\entry\src\main\resources\base\media\background.png
+
+[2025-09-28T19:06:51.880] [DEBUG] debug-file - 09-28 19:06:51.880 101392 39624 E C01400/ImageTranscoder: TranscodeSLR Only zoom-out is supported.
+
+[2025-09-28T19:06:51.880] [DEBUG] debug-file - Warning: ScaleImage failed, error message: INVALID_PARAMETERS, file path = E:\HarmonyOS_Learning\MultipleDialog-master\entry\src\main\resources\base\media\background.png
+
+[2025-09-28T19:06:51.882] [DEBUG] debug-file - 09-28 19:06:51.882 101392 39624 E C01400/ImageTranscoderUtils: DecodeToRGBA IN
+
+[2025-09-28T19:06:51.882] [DEBUG] debug-file - 09-28 19:06:51.882 101392 39624 E C01400/ImageTranscoderUtils: ImageFilter IN E:\HarmonyOS_Learning\MultipleDialog-master\entry\src\main\resources\base\media\foreground.png
+
+[2025-09-28T19:06:51.883] [DEBUG] debug-file - 09-28 19:06:51.883 101392 39624 E C01400/ImageTranscoder: TranscodeSLR Only zoom-out is supported.
+
+[2025-09-28T19:06:51.883] [DEBUG] debug-file - Warning: ScaleImage failed, error message: INVALID_PARAMETERS, file path = E:\HarmonyOS_Learning\MultipleDialog-master\entry\src\main\resources\base\media\foreground.png
+
+[2025-09-28T19:06:51.884] [DEBUG] debug-file - Info: can't scale media json file.
+
+[2025-09-28T19:06:51.884] [DEBUG] debug-file - Warning: E:\HarmonyOS_Learning\MultipleDialog-master\entry\src\main\resources\base\media\layered_image.json is not png format
+
+[2025-09-28T19:06:51.886] [DEBUG] debug-file - Info: thread pool is stopped
+
+[2025-09-28T19:06:51.886] [DEBUG] debug-file - Info: restool resources compile success.
+
+[2025-09-28T19:06:51.944] [DEBUG] debug-file - astcenc customized so is not be opened when dlclose!
+
+[2025-09-28T19:06:51.949] [DEBUG] debug-file - entry : default@CompileResource cost memory -11.005241394042969
+[2025-09-28T19:06:51.949] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 916 ms 
+[2025-09-28T19:06:51.950] [INFO] debug-file - Finished :entry:default@CompileResource... after 215 ms 
+[2025-09-28T19:06:51.953] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-09-28T19:06:51.953] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-09-28T19:06:51.957] [DEBUG] debug-file - Executing task :entry:default@CompileArkTS
+[2025-09-28T19:06:51.983] [DEBUG] debug-file - build config:
+[2025-09-28T19:06:51.983] [DEBUG] debug-file - {
+  moduleType: 'entry',
+  perf: 0,
+  targetName: '.default',
+  packageManagerType: 'ohpm',
+  localPropertiesPath: 'E:\\HarmonyOS_Learning\\MultipleDialog-master\\local.properties',
+  isPreview: false,
+  isOhosTest: false,
+  isLocalTest: false,
+  buildMode: 'Debug',
+  watchMode: 'false',
+  aceProfilePath: 'E:\\HarmonyOS_Learning\\MultipleDialog-master\\entry\\build\\default\\intermediates\\res\\default\\resources\\base\\profile',
+  etsLoaderPath: 'E:\\DevEco Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader',
+  modulePath: 'E:\\HarmonyOS_Learning\\MultipleDialog-master\\entry',
+  testFrameworkPar: {
+    testMode: undefined,
+    coveragePathFilter: undefined,
+    coverageMode: undefined
+  },
+  needCoverageInsert: false,
+  debugLine: false,
+  projectTopDir: 'E:\\HarmonyOS_Learning\\MultipleDialog-master',
+  compileSdkVersion: 17,
+  compatibleSdkVersion: 17,
+  compatibleSdkVersionStage: undefined,
+  bundleName: 'c***g',
+  etsLoaderVersion: '5.0.5.165',
+  etsLoaderReleaseType: 'Release',
+  aotCompileMode: 'type',
+  apPath: 'E:\\HarmonyOS_Learning\\MultipleDialog-master\\entry\\modules.ap',
+  entryModuleName: 'entry',
+  entryModuleVersion: '1.0.0',
+  entryPackageName: 'entry',
+  allModuleNameHash: '32db26d62647711cf76434f3839d152d',
+  externalApiPaths: [ 'E:\\DevEco Studio\\sdk\\default\\hms\\ets' ],
+  compilerTypes: undefined,
+  isCrossplatform: false,
+  hvigorPluginFile: undefined,
+  compilePluginPath: undefined,
+  buildGeneratedProfilePath: 'E:\\HarmonyOS_Learning\\MultipleDialog-master\\entry\\build\\default\\generated\\profile\\default',
+  bundleType: 'app',
+  arkTSVersion: undefined,
+  apiVersion: 17,
+  needCompleteSourcesMap: false,
+  isFaMode: false,
+  strictMode: {
+    caseSensitiveCheck: true,
+    useNormalizedOHMUrl: true,
+    noExternalImportByPath: true
+  },
+  buildDir: 'E:\\HarmonyOS_Learning\\MultipleDialog-master\\entry\\build',
+  deviceTypes: [ 'phone' ],
+  useNormalizedOHMUrl: true,
+  pkgContextInfo: {
+    entry: {
+      packageName: 'entry',
+      bundleName: '*****',
+      moduleName: '',
+      version: '',
+      entryPath: 'src/main/',
+      isSO: false,
+      dependencyAlias: ''
+    }
+  },
+  ohPackagePathMap: {},
+  dependencyAliasMap: {},
+  permission: { requestPermissions: undefined, definePermissions: undefined },
+  integratedHsp: false,
+  projectArkOption: undefined,
+  sourceMapDir: undefined,
+  branchElimination: false,
+  transformLib: undefined,
+  caseSensitiveCheck: true,
+  tsImportSendable: false,
+  resolveConflictMode: true,
+  depName2RootPath: {},
+  depName2DepInfo: {},
+  rootPathSet: [ 'E:\\HarmonyOS_Learning\\MultipleDialog-master' ],
+  useNativeResolver: true,
+  shouldEmitJs: true,
+  autoLazyImport: undefined,
+  allowEmptyBundleName: false,
+  singleFileEmit: false,
+  arkCompileCachePath: 'E:\\HarmonyOS_Learning\\MultipleDialog-master\\entry\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule',
+  reExportCheckMode: 'noCheck',
+  aceModuleJsonPath: 'E:\\HarmonyOS_Learning\\MultipleDialog-master\\entry\\build\\default\\intermediates\\res\\default\\ark_module.json',
+  appResource: 'E:\\HarmonyOS_Learning\\MultipleDialog-master\\entry\\build\\default\\intermediates\\res\\default\\ResourceTable.txt',
+  rawFileResource: 'E:\\HarmonyOS_Learning\\MultipleDialog-master\\entry\\build\\default\\intermediates\\res\\default\\resources\\rawfile',
+  resourceTableHash: 'f9d5220229a2eef0106d2817160824ed',
+  runtimeOS: 'HarmonyOS',
+  sdkInfo: 'false:17:5.0.5.165:Release',
+  aceModuleRoot: 'E:\\HarmonyOS_Learning\\MultipleDialog-master\\entry\\src\\main\\ets',
+  compileMode: 'esmodule',
+  aceSuperVisualPath: 'E:\\HarmonyOS_Learning\\MultipleDialog-master\\entry\\src\\main\\supervisual',
+  aceBuildJson: 'E:\\HarmonyOS_Learning\\MultipleDialog-master\\entry\\build\\default\\intermediates\\loader\\default\\loader.json',
+  cachePath: 'E:\\HarmonyOS_Learning\\MultipleDialog-master\\entry\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule\\debug',
+  aceModuleBuild: 'E:\\HarmonyOS_Learning\\MultipleDialog-master\\entry\\build\\default\\intermediates\\loader_out\\default\\ets',
+  supportChunks: true,
+  declaredFilesPath: undefined,
+  pkgNameToPkgBriefInfo: {
+    entry: {
+      pkgRoot: 'E:\\HarmonyOS_Learning\\MultipleDialog-master\\entry',
+      originalSourceRoots: undefined,
+      sourceRoots: [Array],
+      pkgName: 'entry'
+    }
+  },
+  projectModel: {
+    'E:\\HarmonyOS_Learning\\MultipleDialog-master\\entry\\src\\main': {
+      moduleName: 'entry',
+      modulePkgPath: 'E:\\HarmonyOS_Learning\\MultipleDialog-master\\entry',
+      belongProjectPath: 'E:\\HarmonyOS_Learning\\MultipleDialog-master'
+    },
+    'E:\\HarmonyOS_Learning\\MultipleDialog-master\\entry': {
+      moduleName: 'entry',
+      modulePkgPath: 'E:\\HarmonyOS_Learning\\MultipleDialog-master\\entry',
+      belongProjectPath: 'E:\\HarmonyOS_Learning\\MultipleDialog-master'
+    },
+    'E:\\HarmonyOS_Learning\\MultipleDialog-master': {
+      moduleName: 'MultipleDialog-master',
+      modulePkgPath: 'E:\\HarmonyOS_Learning\\MultipleDialog-master',
+      belongProjectPath: 'E:\\HarmonyOS_Learning\\MultipleDialog-master'
+    }
+  },
+  pkgJsonFileHash: 'ea7ca364739cbf4d530eeb39cce6bf2d',
+  allModulePaths: [ 'E:\\HarmonyOS_Learning\\MultipleDialog-master\\entry' ],
+  routerMap: {},
+  obfuscationOptions: undefined,
+  compileBlockPkg: [],
+  mockParams: {
+    decorator: '@MockSetup',
+    packageName: '@ohos/hamock',
+    etsSourceRootPath: 'src/main/ets',
+    mockConfigPath: undefined,
+    mockConfigKey2ModuleInfo: {}
+  },
+  copyCodeResourceEnable: true,
+  copyCodeResourceExcludes: [],
+  uiTransformOptimization: false,
+  otherPaths: {
+    'entry/*': [
+      '..\\*',
+      '..\\..\\..\\build\\default\\generated\\profile\\default\\*'
+    ]
+  },
+  collectImportersConfig: undefined
+}
+[2025-09-28T19:06:51.984] [DEBUG] debug-file - Compile arkts with external api path: E:\DevEco Studio\sdk\default\hms\ets
+[2025-09-28T19:06:51.985] [DEBUG] debug-file - default@CompileArkTS work[1] is submitted.
+[2025-09-28T19:06:51.986] [DEBUG] debug-file - default@CompileArkTS work[1] is pushed to ready queue.
+[2025-09-28T19:06:51.986] [DEBUG] debug-file - A work dispatched to worker[19] failed because unable to get work from ready queue.
+[2025-09-28T19:06:51.986] [DEBUG] debug-file - A work dispatched to worker[18] failed because of worker busy.
+[2025-09-28T19:06:51.986] [DEBUG] debug-file - A work dispatched to worker[17] failed because unable to get work from ready queue.
+[2025-09-28T19:06:51.986] [DEBUG] debug-file - A work dispatched to worker[16] failed because unable to get work from ready queue.
+[2025-09-28T19:06:51.986] [DEBUG] debug-file - A work dispatched to worker[15] failed because unable to get work from ready queue.
+[2025-09-28T19:06:51.986] [DEBUG] debug-file - A work dispatched to worker[14] failed because unable to get work from ready queue.
+[2025-09-28T19:06:51.986] [DEBUG] debug-file - A work dispatched to worker[13] failed because unable to get work from ready queue.
+[2025-09-28T19:06:51.986] [DEBUG] debug-file - A work dispatched to worker[12] failed because unable to get work from ready queue.
+[2025-09-28T19:06:51.986] [DEBUG] debug-file - A work dispatched to worker[11] failed because unable to get work from ready queue.
+[2025-09-28T19:06:51.986] [DEBUG] debug-file - A work dispatched to worker[10] failed because unable to get work from ready queue.
+[2025-09-28T19:06:51.986] [DEBUG] debug-file - A work dispatched to worker[9] failed because unable to get work from ready queue.
+[2025-09-28T19:06:51.987] [DEBUG] debug-file - A work dispatched to worker[8] failed because unable to get work from ready queue.
+[2025-09-28T19:06:51.987] [DEBUG] debug-file - A work dispatched to worker[7] failed because unable to get work from ready queue.
+[2025-09-28T19:06:51.987] [DEBUG] debug-file - A work dispatched to worker[6] failed because unable to get work from ready queue.
+[2025-09-28T19:06:51.987] [DEBUG] debug-file - A work dispatched to worker[5] failed because unable to get work from ready queue.
+[2025-09-28T19:06:51.987] [DEBUG] debug-file - Create  resident worker with id: 4.
+[2025-09-28T19:06:51.988] [DEBUG] debug-file - default@CompileArkTS work[1] has been dispatched to worker[4].
+[2025-09-28T19:06:51.988] [DEBUG] debug-file - default@CompileArkTS work[1] is dispatched.
+[2025-09-28T19:06:51.988] [DEBUG] debug-file - CopyResources startTime: 412272730487100
+[2025-09-28T19:06:51.988] [DEBUG] debug-file - default@CompileArkTS work[2] is submitted.
+[2025-09-28T19:06:51.990] [DEBUG] debug-file - default@CompileArkTS work[2] is pushed to ready queue.
+[2025-09-28T19:06:51.990] [DEBUG] debug-file - A work dispatched to worker[19] failed because unable to get work from ready queue.
+[2025-09-28T19:06:51.990] [DEBUG] debug-file - A work dispatched to worker[18] failed because of worker busy.
+[2025-09-28T19:06:51.990] [DEBUG] debug-file - Create  resident worker with id: 17.
+[2025-09-28T19:06:51.991] [DEBUG] debug-file - default@CompileArkTS work[2] has been dispatched to worker[17].
+[2025-09-28T19:06:51.991] [DEBUG] debug-file - default@CompileArkTS work[2] is dispatched.
+[2025-09-28T19:06:51.991] [DEBUG] debug-file - entry : default@CompileArkTS cost memory 1.9766616821289062
+[2025-09-28T19:06:51.994] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-09-28T19:06:51.994] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-09-28T19:06:51.997] [DEBUG] debug-file - Executing task :entry:default@BuildJS
+[2025-09-28T19:06:52.002] [DEBUG] debug-file - entry : default@BuildJS cost memory 0.1518402099609375
+[2025-09-28T19:06:52.002] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 969 ms 
+[2025-09-28T19:06:52.003] [INFO] debug-file - Finished :entry:default@BuildJS... after 6 ms 
+[2025-09-28T19:06:52.818] [DEBUG] debug-file - worker[18] has one work done.
+[2025-09-28T19:06:52.818] [DEBUG] debug-file - default@ProcessLibs work[0] done.
+[2025-09-28T19:06:52.818] [DEBUG] debug-file - A work dispatched to worker[18] failed because unable to get work from ready queue.
+[2025-09-28T19:06:52.820] [INFO] debug-file - Finished :entry:default@ProcessLibs... after 17 ms 
+[2025-09-28T19:06:52.823] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-09-28T19:06:52.823] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-09-28T19:06:52.825] [DEBUG] debug-file - Executing task :entry:default@DoNativeStrip
+[2025-09-28T19:06:52.826] [DEBUG] debug-file - Task 'entry:default@DoNativeStrip' cost while wrapping incremental declarations: 1 ms 
+[2025-09-28T19:06:52.826] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-09-28T19:06:52.826] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-09-28T19:06:52.826] [DEBUG] debug-file - default@DoNativeStrip work[3] is submitted.
+[2025-09-28T19:06:52.827] [DEBUG] debug-file - default@DoNativeStrip work[3] is pushed to ready queue.
+[2025-09-28T19:06:52.827] [DEBUG] debug-file - A work dispatched to worker[19] failed because unable to get work from ready queue.
+[2025-09-28T19:06:52.827] [DEBUG] debug-file - default@DoNativeStrip work[3] has been dispatched to worker[18].
+[2025-09-28T19:06:52.827] [DEBUG] debug-file - default@DoNativeStrip work[3] is dispatched.
+[2025-09-28T19:06:52.827] [DEBUG] debug-file - entry : default@DoNativeStrip cost memory 0.19513702392578125
+[2025-09-28T19:06:52.841] [DEBUG] debug-file - worker[18] has one work done.
+[2025-09-28T19:06:52.841] [DEBUG] debug-file - default@DoNativeStrip work[3] done.
+[2025-09-28T19:06:52.841] [DEBUG] debug-file - A work dispatched to worker[18] failed because unable to get work from ready queue.
+[2025-09-28T19:06:52.841] [INFO] debug-file - Finished :entry:default@DoNativeStrip... after 9 ms 
+[2025-09-28T19:06:52.843] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-09-28T19:06:52.843] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-09-28T19:06:52.845] [DEBUG] debug-file - Executing task :entry:default@CacheNativeLibs
+[2025-09-28T19:06:52.845] [DEBUG] debug-file - Task 'entry:default@CacheNativeLibs' cost while wrapping incremental declarations: 1 ms 
+[2025-09-28T19:06:52.845] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-09-28T19:06:52.846] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-09-28T19:06:52.846] [DEBUG] debug-file - default@CacheNativeLibs work[4] is submitted.
+[2025-09-28T19:06:52.846] [DEBUG] debug-file - default@CacheNativeLibs work[4] is pushed to ready queue.
+[2025-09-28T19:06:52.846] [DEBUG] debug-file - A work dispatched to worker[19] failed because unable to get work from ready queue.
+[2025-09-28T19:06:52.846] [DEBUG] debug-file - default@CacheNativeLibs work[4] has been dispatched to worker[18].
+[2025-09-28T19:06:52.847] [DEBUG] debug-file - default@CacheNativeLibs work[4] is dispatched.
+[2025-09-28T19:06:52.847] [DEBUG] debug-file - entry : default@CacheNativeLibs cost memory 0.18366241455078125
+[2025-09-28T19:06:52.868] [DEBUG] debug-file - worker[17] has one work done.
+[2025-09-28T19:06:52.868] [DEBUG] debug-file - CopyResources is end, endTime: 412273610317300
+[2025-09-28T19:06:52.868] [DEBUG] debug-file - default@CompileArkTS work[2] done.
+[2025-09-28T19:06:52.868] [DEBUG] debug-file - A work dispatched to worker[17] failed because unable to get work from ready queue.
+[2025-09-28T19:06:54.015] [DEBUG] debug-file - worker[18] has one work done.
+[2025-09-28T19:06:54.015] [DEBUG] debug-file - default@CacheNativeLibs work[4] done.
+[2025-09-28T19:06:54.015] [DEBUG] debug-file - A work dispatched to worker[18] failed because unable to get work from ready queue.
+[2025-09-28T19:06:54.015] [INFO] debug-file - Finished :entry:default@CacheNativeLibs... after 12 ms 
+[2025-09-28T19:06:58.100] [DEBUG] debug-file - Ark compile task finished.finished time is 412278841821800
+[2025-09-28T19:06:58.100] [DEBUG] debug-file - worker[4] has one work done.
+[2025-09-28T19:06:58.106] [DEBUG] debug-file - default@CompileArkTS work[1] done.
+[2025-09-28T19:06:58.106] [DEBUG] debug-file - A work dispatched to worker[4] failed because unable to get work from ready queue.
+[2025-09-28T19:06:58.109] [INFO] debug-file - Finished :entry:default@CompileArkTS... after 3 s 943 ms 
+[2025-09-28T19:06:58.111] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-09-28T19:06:58.111] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-09-28T19:06:58.112] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgModuleJson
+[2025-09-28T19:06:58.112] [DEBUG] debug-file - Task 'entry:default@GeneratePkgModuleJson' cost while wrapping incremental declarations: 1 ms 
+[2025-09-28T19:06:58.112] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-09-28T19:06:58.112] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-09-28T19:06:58.114] [DEBUG] debug-file - entry : default@GeneratePkgModuleJson cost memory 0.0859527587890625
+[2025-09-28T19:06:58.114] [DEBUG] debug-file - runTaskFromQueue task cost before running: 9 s 81 ms 
+[2025-09-28T19:06:58.114] [INFO] debug-file - Finished :entry:default@GeneratePkgModuleJson... after 3 ms 
+[2025-09-28T19:06:58.117] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-09-28T19:06:58.117] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-09-28T19:06:58.122] [DEBUG] debug-file - Executing task :entry:default@PackageHap
+[2025-09-28T19:06:58.126] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-09-28T19:06:58.126] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-09-28T19:06:58.129] [DEBUG] debug-file - Use tool [E:\DevEco Studio\sdk\default\openharmony\toolchains\lib\app_packing_tool.jar]
+ [
+  'java',
+  '-Dfile.encoding=GBK',
+  '-jar',
+  'E:\\DevEco Studio\\sdk\\default\\openharmony\\toolchains\\lib\\app_packing_tool.jar',
+  '--mode',
+  'hap',
+  '--force',
+  'true',
+  '--lib-path',
+  'E:\\HarmonyOS_Learning\\MultipleDialog-master\\entry\\build\\default\\intermediates\\stripped_native_libs\\default',
+  '--json-path',
+  'E:\\HarmonyOS_Learning\\MultipleDialog-master\\entry\\build\\default\\intermediates\\package\\default\\module.json',
+  '--resources-path',
+  'E:\\HarmonyOS_Learning\\MultipleDialog-master\\entry\\build\\default\\intermediates\\res\\default\\resources',
+  '--index-path',
+  'E:\\HarmonyOS_Learning\\MultipleDialog-master\\entry\\build\\default\\intermediates\\res\\default\\resources.index',
+  '--pack-info-path',
+  'E:\\HarmonyOS_Learning\\MultipleDialog-master\\entry\\build\\default\\outputs\\default\\pack.info',
+  '--out-path',
+  'E:\\HarmonyOS_Learning\\MultipleDialog-master\\entry\\build\\default\\outputs\\default\\entry-default-unsigned.hap',
+  '--ets-path',
+  'E:\\HarmonyOS_Learning\\MultipleDialog-master\\entry\\build\\default\\intermediates\\loader_out\\default\\ets',
+  '--pkg-context-path',
+  'E:\\HarmonyOS_Learning\\MultipleDialog-master\\entry\\build\\default\\intermediates\\loader\\default\\pkgContextInfo.json'
+]
+[2025-09-28T19:06:58.130] [DEBUG] debug-file - default@PackageHap work[5] is submitted.
+[2025-09-28T19:06:58.131] [DEBUG] debug-file - default@PackageHap work[5] is pushed to ready queue.
+[2025-09-28T19:06:58.131] [DEBUG] debug-file - A work dispatched to worker[19] failed because unable to get work from ready queue.
+[2025-09-28T19:06:58.131] [DEBUG] debug-file - default@PackageHap work[5] has been dispatched to worker[18].
+[2025-09-28T19:06:58.131] [DEBUG] debug-file - default@PackageHap work[5] is dispatched.
+[2025-09-28T19:06:58.136] [DEBUG] debug-file - entry : default@PackageHap cost memory 0.9387741088867188
+[2025-09-28T19:06:58.135] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 790978560,
+  heapTotal: 127459328,
+  heapUsed: 104257592,
+  external: 15328681,
+  arrayBuffers: 11356315
+} os memoryUsage :15.094722747802734
+[2025-09-28T19:06:58.518] [DEBUG] debug-file - worker[18] has one work done.
+[2025-09-28T19:06:58.519] [DEBUG] debug-file - default@PackageHap work[5] done.
+[2025-09-28T19:06:58.519] [DEBUG] debug-file - A work dispatched to worker[18] failed because unable to get work from ready queue.
+[2025-09-28T19:06:58.522] [INFO] debug-file - Finished :entry:default@PackageHap... after 396 ms 
+[2025-09-28T19:06:58.524] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-09-28T19:06:58.524] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-09-28T19:06:58.526] [DEBUG] debug-file - Executing task :entry:default@SignHap
+[2025-09-28T19:06:58.527] [WARN] debug-file - Will skip sign 'hos_hap'. No signingConfigs profile is configured in current project.
+             If needed, configure the signingConfigs in E:\HarmonyOS_Learning\MultipleDialog-master\build-profile.json5.
+[2025-09-28T19:06:58.527] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-09-28T19:06:58.527] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-09-28T19:06:58.527] [DEBUG] debug-file - entry : default@SignHap cost memory 0.08087921142578125
+[2025-09-28T19:06:58.528] [DEBUG] debug-file - runTaskFromQueue task cost before running: 9 s 494 ms 
+[2025-09-28T19:06:58.528] [INFO] debug-file - Finished :entry:default@SignHap... after 2 ms 
+[2025-09-28T19:06:58.530] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-09-28T19:06:58.530] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-09-28T19:06:58.531] [DEBUG] debug-file - Executing task :entry:default@CollectDebugSymbol
+[2025-09-28T19:06:58.534] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-09-28T19:06:58.534] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-09-28T19:06:58.535] [DEBUG] debug-file - entry : default@CollectDebugSymbol cost memory 0.21912384033203125
+[2025-09-28T19:06:58.535] [DEBUG] debug-file - runTaskFromQueue task cost before running: 9 s 501 ms 
+[2025-09-28T19:06:58.535] [INFO] debug-file - Finished :entry:default@CollectDebugSymbol... after 5 ms 
+[2025-09-28T19:06:58.536] [DEBUG] debug-file - Executing task :entry:assembleHap
+[2025-09-28T19:06:58.536] [DEBUG] debug-file - entry : assembleHap cost memory 0.0119476318359375
+[2025-09-28T19:06:58.536] [DEBUG] debug-file - runTaskFromQueue task cost before running: 9 s 502 ms 
+[2025-09-28T19:06:58.536] [INFO] debug-file - Finished :entry:assembleHap... after 1 ms 
+[2025-09-28T19:06:58.552] [DEBUG] debug-file - BUILD SUCCESSFUL in 9 s 518 ms 
+[2025-09-28T19:06:58.553] [DEBUG] debug-file - Update task entry:default@PreBuild input file:E:\HarmonyOS_Learning\MultipleDialog-master\AppScope\app.json5 cache by regenerate.
+[2025-09-28T19:06:58.554] [DEBUG] debug-file - Update task entry:default@PreBuild input file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\src\main\module.json5 cache by regenerate.
+[2025-09-28T19:06:58.554] [DEBUG] debug-file - Update task entry:default@PreBuild input file:E:\HarmonyOS_Learning\MultipleDialog-master\build-profile.json5 cache by regenerate.
+[2025-09-28T19:06:58.554] [DEBUG] debug-file - Update task entry:default@PreBuild input file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build-profile.json5 cache by regenerate.
+[2025-09-28T19:06:58.554] [DEBUG] debug-file - Update task entry:default@PreBuild input file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\src\main\resources\base\profile\main_pages.json cache by regenerate.
+[2025-09-28T19:06:58.555] [DEBUG] debug-file - Update task entry:default@PreBuild input file:E:\HarmonyOS_Learning\MultipleDialog-master\hvigor\hvigor-config.json5 cache by regenerate.
+[2025-09-28T19:06:58.555] [DEBUG] debug-file - Update task entry:default@PreBuild input file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\oh-package.json5 cache by regenerate.
+[2025-09-28T19:06:58.555] [DEBUG] debug-file - Update task entry:default@PreBuild input file:E:\HarmonyOS_Learning\MultipleDialog-master\oh-package.json5 cache by regenerate.
+[2025-09-28T19:06:58.555] [DEBUG] debug-file - Incremental task entry:default@PreBuild post-execution cost:4 ms .
+[2025-09-28T19:06:58.555] [DEBUG] debug-file - Update task entry:default@CreateModuleInfo output file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\generated\profile\default\ModuleInfo.ts cache.
+[2025-09-28T19:06:58.556] [DEBUG] debug-file - Incremental task entry:default@CreateModuleInfo post-execution cost:1 ms .
+[2025-09-28T19:06:58.556] [DEBUG] debug-file - Update task entry:default@GenerateMetadata input file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\src\main\module.json5 cache by regenerate.
+[2025-09-28T19:06:58.556] [DEBUG] debug-file - Update task entry:default@GenerateMetadata output file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\intermediates\hap_metadata\default\output_metadata.json cache.
+[2025-09-28T19:06:58.557] [DEBUG] debug-file - Incremental task entry:default@GenerateMetadata post-execution cost:2 ms .
+[2025-09-28T19:06:58.557] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:E:\HarmonyOS_Learning\MultipleDialog-master\AppScope\app.json5 cache by regenerate.
+[2025-09-28T19:06:58.557] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:E:\HarmonyOS_Learning\MultipleDialog-master\build-profile.json5 cache by regenerate.
+[2025-09-28T19:06:58.558] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\src\main\module.json5 cache by regenerate.
+[2025-09-28T19:06:58.558] [DEBUG] debug-file - Update task entry:default@MergeProfile output file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\intermediates\merge_profile\default\module.json cache.
+[2025-09-28T19:06:58.558] [DEBUG] debug-file - Incremental task entry:default@MergeProfile post-execution cost:2 ms .
+[2025-09-28T19:06:58.558] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile input file:E:\HarmonyOS_Learning\MultipleDialog-master\AppScope\app.json5 cache by regenerate.
+[2025-09-28T19:06:58.559] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile input file:E:\HarmonyOS_Learning\MultipleDialog-master\build-profile.json5 cache by regenerate.
+[2025-09-28T19:06:58.559] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile output file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\generated\profile\default\BuildProfile.ets cache.
+[2025-09-28T19:06:58.559] [DEBUG] debug-file - Incremental task entry:default@CreateBuildProfile post-execution cost:1 ms .
+[2025-09-28T19:06:58.559] [DEBUG] debug-file - Update task entry:default@GeneratePkgContextInfo output file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\intermediates\loader\default\pkgContextInfo.json cache.
+[2025-09-28T19:06:58.560] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgContextInfo post-execution cost:1 ms .
+[2025-09-28T19:06:58.560] [DEBUG] debug-file - Update task entry:default@ProcessIntegratedHsp output file:E:\HarmonyOS_Learning\MultipleDialog-master\build\cache\default\integrated_hsp\integratedHspCache.json cache.
+[2025-09-28T19:06:58.561] [DEBUG] debug-file - Incremental task entry:default@ProcessIntegratedHsp post-execution cost:1 ms .
+[2025-09-28T19:06:58.561] [DEBUG] debug-file - Update task entry:default@MakePackInfo input file:E:\HarmonyOS_Learning\MultipleDialog-master\AppScope\app.json5 cache by regenerate.
+[2025-09-28T19:06:58.561] [DEBUG] debug-file - Update task entry:default@MakePackInfo input file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\src\main\module.json5 cache by regenerate.
+[2025-09-28T19:06:58.561] [DEBUG] debug-file - Update task entry:default@MakePackInfo input file:E:\HarmonyOS_Learning\MultipleDialog-master\build-profile.json5 cache by regenerate.
+[2025-09-28T19:06:58.562] [DEBUG] debug-file - Update task entry:default@MakePackInfo input file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\src\main\resources\base\profile\backup_config.json cache by regenerate.
+[2025-09-28T19:06:58.563] [DEBUG] debug-file - Update task entry:default@MakePackInfo output file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\outputs\default\pack.info cache.
+[2025-09-28T19:06:58.563] [DEBUG] debug-file - Incremental task entry:default@MakePackInfo post-execution cost:3 ms .
+[2025-09-28T19:06:58.563] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:E:\DevEco Studio\sdk\default\openharmony\toolchains\syscap_tool.exe cache by regenerate.
+[2025-09-28T19:06:58.563] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:E:\DevEco Studio\sdk\default\openharmony\ets\api\device-define cache by regenerate.
+[2025-09-28T19:06:58.565] [DEBUG] debug-file - Update task entry:default@SyscapTransform output file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\intermediates\syscap\default\rpcid.sc cache.
+[2025-09-28T19:06:58.565] [DEBUG] debug-file - Incremental task entry:default@SyscapTransform post-execution cost:2 ms .
+[2025-09-28T19:06:58.565] [DEBUG] debug-file - Update task entry:default@ProcessProfile input file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\intermediates\merge_profile\default\module.json cache by regenerate.
+[2025-09-28T19:06:58.565] [DEBUG] debug-file - Update task entry:default@ProcessProfile output file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\intermediates\process_profile\default\module.json cache.
+[2025-09-28T19:06:58.566] [DEBUG] debug-file - Incremental task entry:default@ProcessProfile post-execution cost:1 ms .
+[2025-09-28T19:06:58.567] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\oh-package.json5 cache by regenerate.
+[2025-09-28T19:06:58.568] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:E:\HarmonyOS_Learning\MultipleDialog-master\oh-package.json5 cache by regenerate.
+[2025-09-28T19:06:58.568] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\src\main\module.json5 cache by regenerate.
+[2025-09-28T19:06:58.569] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\intermediates\loader\default\pkgContextInfo.json cache by regenerate.
+[2025-09-28T19:06:58.569] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap output file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\intermediates\router_map\default\temp-router-map.json cache.
+[2025-09-28T19:06:58.569] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap output file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\intermediates\router_map\default\loader-router-map.json cache.
+[2025-09-28T19:06:58.569] [DEBUG] debug-file - Incremental task entry:default@ProcessRouterMap post-execution cost:4 ms .
+[2025-09-28T19:06:58.570] [DEBUG] debug-file - Update task entry:default@ProcessResource output file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\intermediates\res\default\resConfig.json cache.
+[2025-09-28T19:06:58.570] [DEBUG] debug-file - Update task entry:default@ProcessResource output file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\intermediates\res\default\opt-compression.json cache.
+[2025-09-28T19:06:58.570] [DEBUG] debug-file - Incremental task entry:default@ProcessResource post-execution cost:1 ms .
+[2025-09-28T19:06:58.574] [DEBUG] debug-file - Update task entry:default@GenerateLoaderJson input file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\intermediates\loader\default\pkgContextInfo.json cache by regenerate.
+[2025-09-28T19:06:58.574] [DEBUG] debug-file - Update task entry:default@GenerateLoaderJson input file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\intermediates\router_map\default\temp-router-map.json cache by regenerate.
+[2025-09-28T19:06:58.574] [DEBUG] debug-file - Update task entry:default@GenerateLoaderJson output file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\intermediates\loader\default\loader.json cache.
+[2025-09-28T19:06:58.575] [DEBUG] debug-file - Incremental task entry:default@GenerateLoaderJson post-execution cost:5 ms .
+[2025-09-28T19:06:58.575] [DEBUG] debug-file - Update task entry:default@ProcessLibs input file:E:\HarmonyOS_Learning\MultipleDialog-master\build-profile.json5 cache by regenerate.
+[2025-09-28T19:06:58.575] [DEBUG] debug-file - Update task entry:default@ProcessLibs input file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build-profile.json5 cache by regenerate.
+[2025-09-28T19:06:58.575] [DEBUG] debug-file - Update task entry:default@ProcessLibs output file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\intermediates\libs\default cache.
+[2025-09-28T19:06:58.576] [DEBUG] debug-file - Incremental task entry:default@ProcessLibs post-execution cost:1 ms .
+[2025-09-28T19:06:58.577] [DEBUG] debug-file - Update task entry:default@CompileResource input file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\src\main\resources cache by regenerate.
+[2025-09-28T19:06:58.582] [DEBUG] debug-file - Update task entry:default@CompileResource input file:E:\HarmonyOS_Learning\MultipleDialog-master\AppScope\resources cache by regenerate.
+[2025-09-28T19:06:58.583] [DEBUG] debug-file - Update task entry:default@CompileResource input file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\intermediates\process_profile\default\module.json cache by regenerate.
+[2025-09-28T19:06:58.583] [DEBUG] debug-file - Update task entry:default@CompileResource input file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\intermediates\res\default\resConfig.json cache by regenerate.
+[2025-09-28T19:06:58.583] [DEBUG] debug-file - Update task entry:default@CompileResource output file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\intermediates\res\default cache.
+[2025-09-28T19:06:58.589] [DEBUG] debug-file - Update task entry:default@CompileResource output file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\generated\r\default\ResourceTable.h cache.
+[2025-09-28T19:06:58.589] [DEBUG] debug-file - Update task entry:default@CompileResource output file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\generated\r\default cache.
+[2025-09-28T19:06:58.590] [DEBUG] debug-file - Incremental task entry:default@CompileResource post-execution cost:15 ms .
+[2025-09-28T19:06:58.593] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\intermediates\loader\default cache by regenerate.
+[2025-09-28T19:06:58.594] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\intermediates\res\default\ResourceTable.txt cache by regenerate.
+[2025-09-28T19:06:58.594] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\intermediates\res\default\ark_module.json cache by regenerate.
+[2025-09-28T19:06:58.594] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\intermediates\res\default\resources\base\profile cache by regenerate.
+[2025-09-28T19:06:58.595] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\src\main\ets cache by regenerate.
+[2025-09-28T19:06:58.598] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\intermediates\loader\default\pkgContextInfo.json cache by regenerate.
+[2025-09-28T19:06:58.598] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\generated\profile\default\BuildProfile.ets cache by regenerate.
+[2025-09-28T19:06:58.598] [DEBUG] debug-file - Update task entry:default@CompileArkTS output file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\intermediates\loader_out\default\ets cache.
+[2025-09-28T19:06:58.599] [DEBUG] debug-file - Incremental task entry:default@CompileArkTS post-execution cost:9 ms .
+[2025-09-28T19:06:58.601] [DEBUG] debug-file - Update task entry:default@BuildJS input file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\intermediates\loader\default cache by regenerate.
+[2025-09-28T19:06:58.601] [DEBUG] debug-file - Update task entry:default@BuildJS input file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\intermediates\res\default\ResourceTable.txt cache by regenerate.
+[2025-09-28T19:06:58.602] [DEBUG] debug-file - Update task entry:default@BuildJS input file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\intermediates\res\default\ark_module.json cache by regenerate.
+[2025-09-28T19:06:58.602] [DEBUG] debug-file - Update task entry:default@BuildJS input file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\intermediates\res\default\resources\base\profile cache by regenerate.
+[2025-09-28T19:06:58.602] [DEBUG] debug-file - Update task entry:default@BuildJS input file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\intermediates\loader\default\pkgContextInfo.json cache by regenerate.
+[2025-09-28T19:06:58.603] [DEBUG] debug-file - Update task entry:default@BuildJS output file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\intermediates\loader_out\default\js cache.
+[2025-09-28T19:06:58.603] [DEBUG] debug-file - Incremental task entry:default@BuildJS post-execution cost:4 ms .
+[2025-09-28T19:06:58.603] [DEBUG] debug-file - Update task entry:default@DoNativeStrip input file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\intermediates\libs\default cache by regenerate.
+[2025-09-28T19:06:58.603] [DEBUG] debug-file - Update task entry:default@DoNativeStrip output file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\intermediates\stripped_native_libs\default cache.
+[2025-09-28T19:06:58.603] [DEBUG] debug-file - Incremental task entry:default@DoNativeStrip post-execution cost:1 ms .
+[2025-09-28T19:06:58.603] [DEBUG] debug-file - Update task entry:default@CacheNativeLibs input file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\intermediates\stripped_native_libs\default cache by regenerate.
+[2025-09-28T19:06:58.604] [DEBUG] debug-file - Update task entry:default@CacheNativeLibs input file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\intermediates\libs\default cache by regenerate.
+[2025-09-28T19:06:58.604] [DEBUG] debug-file - Update task entry:default@CacheNativeLibs output file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\intermediates\patch\default\base_native_libs.json cache.
+[2025-09-28T19:06:58.604] [DEBUG] debug-file - Incremental task entry:default@CacheNativeLibs post-execution cost:1 ms .
+[2025-09-28T19:06:58.604] [DEBUG] debug-file - Update task entry:default@GeneratePkgModuleJson input file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\intermediates\res\default\module.json cache by regenerate.
+[2025-09-28T19:06:58.605] [DEBUG] debug-file - Update task entry:default@GeneratePkgModuleJson output file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\intermediates\package\default\module.json cache.
+[2025-09-28T19:06:58.605] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgModuleJson post-execution cost:1 ms .
+[2025-09-28T19:06:58.606] [DEBUG] debug-file - Update task entry:default@PackageHap input file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\intermediates\stripped_native_libs\default cache by regenerate.
+[2025-09-28T19:06:58.606] [DEBUG] debug-file - Update task entry:default@PackageHap input file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\intermediates\res\default\module.json cache by regenerate.
+[2025-09-28T19:06:58.606] [DEBUG] debug-file - Update task entry:default@PackageHap input file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\intermediates\res\default\resources cache by regenerate.
+[2025-09-28T19:06:58.610] [DEBUG] debug-file - Update task entry:default@PackageHap input file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\intermediates\res\default\resources.index cache by regenerate.
+[2025-09-28T19:06:58.610] [DEBUG] debug-file - Update task entry:default@PackageHap input file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\outputs\default\pack.info cache by regenerate.
+[2025-09-28T19:06:58.610] [DEBUG] debug-file - Update task entry:default@PackageHap input file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\intermediates\loader_out\default\ets cache by regenerate.
+[2025-09-28T19:06:58.610] [DEBUG] debug-file - Update task entry:default@PackageHap input file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\intermediates\loader\default\pkgContextInfo.json cache by regenerate.
+[2025-09-28T19:06:58.611] [DEBUG] debug-file - Update task entry:default@PackageHap input file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\intermediates\loader_out\default\ets\sourceMaps.map cache by regenerate.
+[2025-09-28T19:06:58.611] [DEBUG] debug-file - Update task entry:default@PackageHap input file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\generated\profile\default\BuildProfile.ets cache by regenerate.
+[2025-09-28T19:06:58.611] [DEBUG] debug-file - Update task entry:default@PackageHap output file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\outputs\default\entry-default-unsigned.hap cache.
+[2025-09-28T19:06:58.612] [DEBUG] debug-file - Update task entry:default@PackageHap output file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\intermediates\source_map\default\sourceMaps.map cache.
+[2025-09-28T19:06:58.612] [DEBUG] debug-file - Update task entry:default@PackageHap output file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\outputs\default\mapping\sourceMaps.map cache.
+[2025-09-28T19:06:58.612] [DEBUG] debug-file - Incremental task entry:default@PackageHap post-execution cost:8 ms .
+[2025-09-28T19:06:58.612] [DEBUG] debug-file - Update task entry:default@SignHap input file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\outputs\default\entry-default-unsigned.hap cache by regenerate.
+[2025-09-28T19:06:58.612] [DEBUG] debug-file - Update task entry:default@SignHap output file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\outputs\default\entry-default-signed.hap cache.
+[2025-09-28T19:06:58.613] [DEBUG] debug-file - Incremental task entry:default@SignHap post-execution cost:1 ms .
+[2025-09-28T19:06:58.615] [DEBUG] debug-file - Update task entry:default@CollectDebugSymbol input file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\intermediates\loader_out\default\ets\sourceMaps.map cache by regenerate.
+[2025-09-28T19:06:58.615] [DEBUG] debug-file - Update task entry:default@CollectDebugSymbol input file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\intermediates\libs\default cache by regenerate.
+[2025-09-28T19:06:58.615] [DEBUG] debug-file - Update task entry:default@CollectDebugSymbol output file:E:\HarmonyOS_Learning\MultipleDialog-master\entry\build\default\outputs\default\symbol cache.
+[2025-09-28T19:06:58.615] [DEBUG] debug-file - Incremental task entry:default@CollectDebugSymbol post-execution cost:3 ms .
+[2025-09-28T19:06:58.645] [DEBUG] debug-file - Cleanup worker 0.
+[2025-09-28T19:06:58.645] [DEBUG] debug-file - Worker 0 has been cleaned up.
+[2025-09-28T19:06:58.645] [DEBUG] debug-file - Current idle worker size: 4.
+[2025-09-28T19:06:58.645] [DEBUG] debug-file - Current resident worker size: 5.
+[2025-09-28T19:06:58.645] [DEBUG] debug-file - Cleanup worker 1.
+[2025-09-28T19:06:58.645] [DEBUG] debug-file - Worker 1 has been cleaned up.
+[2025-09-28T19:06:58.645] [DEBUG] debug-file - Current idle worker size: 3.
+[2025-09-28T19:06:58.645] [DEBUG] debug-file - Current resident worker size: 5.
+[2025-09-28T19:06:58.645] [DEBUG] debug-file - Cleanup worker 17.
+[2025-09-28T19:06:58.645] [DEBUG] debug-file - Worker 17 has been cleaned up.
+[2025-09-28T19:06:58.645] [DEBUG] debug-file - Current idle worker size: 2.
+[2025-09-28T19:06:58.645] [DEBUG] debug-file - Current resident worker size: 5.
+[2025-09-28T19:06:58.646] [DEBUG] debug-file - Cleanup worker 18.
+[2025-09-28T19:06:58.646] [DEBUG] debug-file - Worker 18 has been cleaned up.
+[2025-09-28T19:06:58.646] [DEBUG] debug-file - Current idle worker size: 1.
+[2025-09-28T19:06:58.646] [DEBUG] debug-file - Current resident worker size: 5.
+[2025-09-28T19:06:58.647] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-09-28T19:06:58.649] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-09-28T19:06:58.649] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-09-28T19:06:58.649] [DEBUG] debug-file - worker[0] exits with exit code 1.
+[2025-09-28T19:06:58.650] [DEBUG] debug-file - worker[1] exits with exit code 1.
+[2025-09-28T19:06:58.651] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-09-28T19:06:58.651] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-09-28T19:06:58.657] [DEBUG] debug-file - worker[17] exits with exit code 1.
+[2025-09-28T19:06:58.664] [DEBUG] debug-file - worker[18] exits with exit code 1.

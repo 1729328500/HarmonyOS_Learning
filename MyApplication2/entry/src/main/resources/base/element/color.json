@@ -1,8 +1,30 @@
 {
   "color": [
+
     {
       "name": "start_window_background",
       "value": "#FFFFFF"
+    },
+
+    {
+      "name": "primary_color",
+      "value": "#007AFF"
+    },
+
+    {
+      "name": "warning_color",
+      "value": "#FF3B30"
+    },
+
+    {
+      "name": "background_color",
+      "value": "#948A8989"
+    },
+
+    {
+      "name": "text_primary",
+      "value": "#333333"
     }
   ]
+}
 }

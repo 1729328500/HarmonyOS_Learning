@@ -59,7 +59,49 @@ struct Index {
             .height(60)
             .onClick(() => this.navigateToPage('pages/UserList'))
         }
-        .padding({ left: 10, right: 10 })
+        .padding({ left: 10, right: 10,bottom: 8 })
+
+        //基础组件
+        ListItem() {
+          Button('基础组件')
+            .width('100%')
+            .height(60)
+            .onClick(() => this.navigateToPage('pages/LinearLayoutPage'))
+        }
+        .padding({ left: 10, right: 10,bottom: 8 })
+
+        //进阶组件
+        ListItem() {
+          Button('进阶组件')
+            .width('100%')
+            .height(60)
+            .onClick(() => this.navigateToPage('pages/LayoutPages'))
+        }
+        .padding({ left: 10, right: 10,bottom: 8 })
+
+        //显式动画
+        ListItem() {
+          Button('基础动画')
+            .width('100%')
+            .height(60)
+            .onClick(() => this.navigateToPage('pages/ExplictAnimationPage'))
+        }
+        .padding({ left: 10, right: 10,bottom: 8 })
+        //显式动画
+        ListItem() {
+          Button('卡片')
+            .width('100%')
+            .height(60)
+            .onClick(() => this.navigateToPage('pages/CardPage'))
+        }
+        .padding({ left: 10, right: 10,bottom: 8 })
+        ListItem() {
+          Button('商品')
+            .width('100%')
+            .height(60)
+            .onClick(() => this.navigateToPage('pages/ProductList'))
+        }
+        .padding({ left: 10, right: 10,bottom: 8 })
       }
       .width('100%')
     }

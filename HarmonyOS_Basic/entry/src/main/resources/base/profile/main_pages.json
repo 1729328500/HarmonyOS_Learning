@@ -5,6 +5,14 @@
     "pages/ProductListPage",
     "pages/SettingsPage",
     "pages/DataWatchExample",
-    "pages/UserList"
+    "pages/UserList",
+    "pages/LinearLayoutPage",
+    "pages/LayoutPages",
+    "pages/ExplictAnimationPage",
+    "pages/CardPage",
+    "pages/KeyframeAnimationPage",
+    "pages/ProductList",
+    "pages/ProductDetail"
+
   ]
 }

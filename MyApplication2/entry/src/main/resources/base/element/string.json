@@ -1,16 +1,34 @@
 {
   "string": [
+
     {
       "name": "module_desc",
       "value": "module description"
     },
+
     {
       "name": "EntryAbility_desc",
       "value": "description"
     },
+
     {
       "name": "EntryAbility_label",
       "value": "我的应用"
+    },
+
+    {
+      "name": "home_title",
+      "value": "首页"
+    },
+
+    {
+      "name": "btn_confirm",
+      "value": "确定"
+    },
+
+    {
+      "name": "btn_cancel",
+      "value": "取消"
     }
   ]
 }
